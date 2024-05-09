@@ -1,0 +1,19 @@
+.blogs{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.left{
+    border-right: 1px Solid grey;
+    width: 60%;
+}
+
+.right{
+    margin-right: 50px;
+}
+
+.btn{
+    float: right;
+}

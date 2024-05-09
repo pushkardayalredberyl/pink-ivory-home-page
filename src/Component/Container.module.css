@@ -1,0 +1,13 @@
+.box{
+    margin-left: 40px;
+}
+.container-box{
+    margin-left : 100px;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
