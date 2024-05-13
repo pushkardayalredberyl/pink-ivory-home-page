@@ -7,6 +7,10 @@ import Box from './Component/Box';
 import Blogs from './Component/Blogs';
 import Container from './Component/Container';
 import Consultation from './Component/Consultation';
+import Design from './Component/Design';
+import Slider from './Component/Slider';
+import Projects from './Component/Projects';
+import Percentage from './Component/Percentage';
 
 
 function App() {
@@ -25,10 +29,14 @@ function App() {
     <Carousel images={images} />
 
     <Tagline/>
+    <Design/>
+    <Slider/>
+    <Projects/>
     <Consultation/>
-    <Container/>
-    <Blogs/> 
-    <Box/>
+    <Percentage/>
+    
+    
+    
     <Footer/>
       
     </>

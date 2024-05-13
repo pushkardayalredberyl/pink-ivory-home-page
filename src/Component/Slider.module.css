@@ -1,0 +1,22 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+    display: flex; /* Use flexbox for horizontal layout */
+    align-items: center;
+    background-color: azure;
+}
+
+.slide {
+    width: calc(100% / 5); /* Adjust slide width based on number of slides to show */
+    transition: transform 0.5s ease; /* Add transition for smooth sliding */
+}
+
+.slide.active {
+    display: block;
+}
+
+.company-slide {
+    width: 80%;
+    height: auto;
+
+}

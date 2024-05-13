@@ -6,6 +6,8 @@
     position: relative;
     width: 100vw; /* Full width of the screen */
     height: 100vh; /* Full height of the screen */
+    z-index: 0.7;
+    
   }
   
   .slide {

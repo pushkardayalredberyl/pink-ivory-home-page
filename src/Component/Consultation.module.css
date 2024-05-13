@@ -1,5 +1,5 @@
 .box{
-    height: 200px;
+    height: 320px;
     width: 100%;
     background-color: black;
     display: flex;
@@ -26,8 +26,8 @@
     color: white;
 }
 .btn{
-    color: black;
-    background-color: white;
+    color: rgb(4, 3, 3);
+    background-color: rgb(255, 255, 255);
     height: 50px;
     width: 85px;
 }

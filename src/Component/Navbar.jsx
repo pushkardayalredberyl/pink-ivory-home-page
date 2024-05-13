@@ -2,7 +2,8 @@ import styles from "./Navbar.module.css"
 import React from 'react'
 import search from '../../src/assets/magnifying-glass-solid.svg'
 import bars from '../../src/assets/search.png'
-
+import { IoSearchCircleOutline } from "react-icons/io5";
+import { FaBars } from "react-icons/fa";
 
 function Navbar(){
     
@@ -24,8 +25,8 @@ function Navbar(){
                 <button className={styles['button']}>Contact Us</button>
             </div>
             <div className={styles['right']}>
-                <img className={styles['magnify']} src={search}/>
-                <img className={styles['magnify']} src={bars}/>
+                <IoSearchCircleOutline />
+                <FaBars />
             </div>
         
         </div>
