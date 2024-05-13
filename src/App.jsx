@@ -6,15 +6,16 @@ import Footer from './Component/Footer';
 import Box from './Component/Box';
 import Blogs from './Component/Blogs';
 import Container from './Component/Container';
+import Consultation from './Component/Consultation';
 
 
 function App() {
   
   const images = [
-   '/Users/pushkardayal/Desktop/HomePage/Pink Ivory/src/assets/download (2).jpeg',
-   '/Users/pushkardayal/Desktop/HomePage/Pink Ivory/src/assets/download (3).jpeg',
-   '/Users/pushkardayal/Desktop/HomePage/Pink Ivory/src/assets/download.jpeg',
-   '/Users/pushkardayal/Desktop/HomePage/Pink Ivory/src/assets/pixel.jpg'
+   '/images/pixel.jpg',
+   
+   '/images/download.jpeg',
+   
   ];
 
   return (
@@ -24,6 +25,7 @@ function App() {
     <Carousel images={images} />
 
     <Tagline/>
+    <Consultation/>
     <Container/>
     <Blogs/> 
     <Box/>

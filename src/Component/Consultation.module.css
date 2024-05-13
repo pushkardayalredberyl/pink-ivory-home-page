@@ -1,0 +1,33 @@
+.box{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+.left{
+    margin-left: 50px;
+    width: 50%;
+}
+
+.right{
+    width: 30%;
+    align-items: center;
+    margin-left: 80px;
+}
+.heading{
+    color: white;
+}
+
+.para{
+    color: white;
+}
+.btn{
+    color: black;
+    background-color: white;
+    height: 50px;
+    width: 85px;
+}

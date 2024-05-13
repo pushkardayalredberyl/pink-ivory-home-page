@@ -41,3 +41,16 @@
     border: none;
 
 }
+.right{
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.magnify{
+    height: 30px;
+    width: 20px;
+    margin-left: 30px;
+    background-color: white;
+}
